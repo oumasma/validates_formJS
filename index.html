@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon Formulaire</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2> Inscrivez-vous</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Prénom</label>
+                <input type="text" placeholder="Roro" id="firstname" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Nom</label>
+                <input type="text" placeholder="Legrand" id="lastname" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Quel est votre age ?</label>
+                <input type="number" id="age" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="petitefleur@blabla.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Confirmez Email</label>
+                <input type="email" placeholder="petitefleur@blabla.com" id="email2" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Mot de passe </label>
+                <input type="password" placeholder="mot de passe" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Confirmez mot de de passe</label>
+                <input type="password" placeholder="mot de passe" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div>
+                <input class="form-check-input" type="radio" id="cgu">
+                <label class="username" for="cgu">J'accepte les conditions générales d'utilisation et de vente</label>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>       
+            </div>
+            <button>S'inscrire</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
